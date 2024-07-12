@@ -6,6 +6,7 @@
   "typings": "dist/index.d.ts",
   "module": "dist/index.mjs",
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "lint": "eslint && prettier --write .",
     "test": "vitest",
     "build": "rimraf dist && rollup && pnpm run lint",
