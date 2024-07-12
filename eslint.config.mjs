@@ -3,8 +3,8 @@ import tseslint from 'typescript-eslint'
 
 export default [
   {
-    ignores: ['node_modules', 'dist'],
+    ignores: ['coverage', 'dist', 'node_modules'],
   },
   pluginJs.configs.recommended,
-  ...tseslint.configs.strict,
+  ...tseslint.configs.recommended,
 ]

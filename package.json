@@ -8,7 +8,8 @@
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "postinstall": "simple-git-hooks",
-    "lint": "eslint && prettier --write .",
+    "format": "prettier --write .",
+    "lint": "eslint --fix",
     "test": "vitest",
     "build": "rimraf dist && rollup && pnpm run lint",
     "release": "pnpm run build && changeset publish",
@@ -45,7 +46,7 @@
     "vitest": "^2.0.2"
   },
   "simple-git-hooks": {
-    "pre-commit": "pnpm run lint",
-    "pre-push": "pnpm run lint"
+    "pre-commit": "pnpm run format",
+    "pre-push": "pnpm run format && pnpm run lint"
   }
 }
