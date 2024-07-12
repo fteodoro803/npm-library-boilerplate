@@ -9,6 +9,7 @@
     "lint": "eslint -c config/* && prettier --no-semi --write .",
     "test": "vitest -c config/vitest.config.mts",
     "build": "rimraf dist && rollup --config config/rollup.config.mjs && pnpm run lint && pnpm link .",
+    "release": "pnpm run build && changeset publish",
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
