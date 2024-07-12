@@ -6,7 +6,7 @@ const outDir = 'dist'
 const bundle = (config) => ({
   ...config,
   input: 'src/index.ts',
-  treeshake: true
+  treeshake: true,
 })
 
 export default [
@@ -16,21 +16,21 @@ export default [
       {
         dir: `${outDir}/index.cjs`,
         format: 'cjs',
-        preserveModules: true
+        preserveModules: true,
       },
       {
         dir: `${outDir}/index.mjs`,
         format: 'esm',
-        preserveModules: true
-      }
-    ]
+        preserveModules: true,
+      },
+    ],
   }),
   bundle({
     plugins: [dts()],
     output: {
       dir: `${outDir}/index.d.ts`,
       format: 'es',
-      preserveModules: true
-    }
-  })
+      preserveModules: true,
+    },
+  }),
 ]

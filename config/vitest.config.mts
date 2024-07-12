@@ -4,11 +4,11 @@ export default defineConfig({
   test: {
     watch: false,
     typecheck: {
-      enabled: true
+      enabled: true,
     },
     coverage: {
-      enabled: true
+      enabled: true,
     },
-    logHeapUsage: true
-  }
+    logHeapUsage: true,
+  },
 })
