@@ -1,6 +1,9 @@
 # Test
 coverage
 
+# Build
+dist
+
 # Docs
 docs/.vitepress/dist
 docs/.vitepress/cache
