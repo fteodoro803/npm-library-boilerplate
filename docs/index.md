@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "npm-library-boilerplate"
-  text: "Boilerplate for creating NPM library with CJS, ESM and DTS output. Complete with CICD pipeline and docs."
+  name: 'npm-library-boilerplate'
+  text: 'Boilerplate for creating NPM library with CJS, ESM and DTS output. Complete with CICD pipeline and docs.'
   tagline: My great project tagline
   actions:
     - theme: brand
