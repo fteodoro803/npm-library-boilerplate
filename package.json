@@ -12,10 +12,7 @@
     "lint": "eslint --fix",
     "test": "vitest",
     "build": "rimraf dist && rollup && pnpm run lint",
-    "release": "pnpm run build && changeset publish",
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "release": "pnpm run build && changeset publish"
   },
   "repository": "https://github.com/MengLinMaker/npm-library-boilerplate.git",
   "keywords": [
