@@ -29,7 +29,7 @@ export default [
     plugins: [dts()],
     output: {
       dir: `${outDir}/index.d.ts`,
-      format: 'es',
+      format: 'esm',
       preserveModules: true,
     },
   }),
