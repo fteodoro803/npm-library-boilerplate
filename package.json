@@ -8,15 +8,6 @@
   "files": [
     "dist"
   ],
-  "scripts": {
-    "preinstall": "npx only-allow pnpm",
-    "postinstall": "simple-git-hooks",
-    "format": "prettier --write --list-different .",
-    "lint": "eslint --fix && tsc --noEmit",
-    "test": "vitest",
-    "build": "rimraf dist && rollup -c",
-    "release": "changeset publish"
-  },
   "repository": "https://github.com/MengLinMaker/npm-library-boilerplate.git",
   "keywords": [
     "boilerplate",
@@ -29,6 +20,15 @@
     "url": "https://github.com/MengLinMaker/npm-library-boilerplate/issues"
   },
   "homepage": "https://github.com/MengLinMaker/npm-library-boilerplate#readme",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "postinstall": "simple-git-hooks",
+    "format": "prettier --write --list-different .",
+    "lint": "eslint --fix && tsc --noEmit",
+    "test": "vitest",
+    "build": "rimraf dist && rollup -c",
+    "release": "changeset publish"
+  },
   "devDependencies": {
     "@changesets/cli": "^2.27.7",
     "@eslint/js": "^9.6.0",
