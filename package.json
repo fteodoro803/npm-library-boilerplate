@@ -11,7 +11,7 @@
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "postinstall": "simple-git-hooks",
-    "format": "prettier --write .",
+    "format": "prettier --write --list-different .",
     "lint": "eslint --fix && tsc --noEmit",
     "test": "vitest",
     "build": "rimraf dist && rollup -c",
