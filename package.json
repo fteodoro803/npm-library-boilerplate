@@ -11,7 +11,7 @@
     "format": "prettier --write .",
     "lint": "eslint --fix",
     "test": "vitest",
-    "build": "rimraf dist && rollup",
+    "build": "rimraf dist && rollup -c",
     "release": "changeset publish"
   },
   "repository": "https://github.com/MengLinMaker/npm-library-boilerplate.git",
