@@ -1,6 +1,6 @@
 {
   "name": "@menglinmaker/npm-library-boilerplate",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Boilerplate for creating NPM library with CJS, ESM and DTS output",
   "main": "dist/index.cjs",
   "typings": "dist/index.d.ts",
