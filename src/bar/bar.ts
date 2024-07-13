@@ -1,7 +1,9 @@
+import { FooBar } from '../types'
+
 /**
  * Function to return "bar" string.
- * @returns {string} Return "bar" string.
+ * @returns {FooBar} Return "bar" string.
  */
-export const bar = () => {
+export const bar = (): FooBar => {
   return 'b' + 'a' + 'r'
 }
