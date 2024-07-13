@@ -12,11 +12,15 @@
     "noUncheckedIndexedAccess": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    /* Check Config */
+    "checkJs": true,
+    "skipLibCheck": true,
+    "pretty": true,
     /* Module Config */
     "isolatedModules": true,
-    "checkJs": true,
     "esModuleInterop": true,
-    "skipLibCheck": true
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext"
   },
   "include": ["docs", "src", "tests"]
 }

@@ -9,7 +9,7 @@
     "preinstall": "npx only-allow pnpm",
     "postinstall": "simple-git-hooks",
     "format": "prettier --write .",
-    "lint": "eslint --fix",
+    "lint": "eslint --fix && tsc --noEmit",
     "test": "vitest",
     "build": "rimraf dist && rollup -c",
     "release": "changeset publish"
