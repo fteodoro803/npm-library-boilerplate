@@ -5,6 +5,9 @@
   "main": "dist/index.cjs",
   "typings": "dist/index.d.ts",
   "module": "dist/index.mjs",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "postinstall": "simple-git-hooks",
