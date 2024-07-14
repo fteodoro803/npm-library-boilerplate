@@ -20,7 +20,13 @@
     "isolatedModules": true,
     "esModuleInterop": true,
     "module": "NodeNext",
-    "moduleResolution": "NodeNext"
+    "moduleResolution": "NodeNext",
+    /* Build Config */
+    "incremental": true
   },
-  "include": ["docs", "src", "tests"]
+  "include": [
+    "docs",
+    "src",
+    "tests"
+  ]
 }
