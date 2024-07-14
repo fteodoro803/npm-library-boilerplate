@@ -21,12 +21,6 @@
     "esModuleInterop": true,
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
-    /* Build Config */
-    "incremental": true
   },
-  "include": [
-    "docs",
-    "src",
-    "tests"
-  ]
+  "include": ["src"]
 }
