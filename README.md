@@ -62,7 +62,7 @@ To achieve consistency for devs, use of `pnpm` is enforced with a `package.json`
 
 This repo uses:
 
-- `prettier` for formatting.
+- `biome` for formatting and some linting. Over 95% prettier compatability.
 - `eslint` for linting.
   - `@eslint/js` plugin for JavaScript rules.
   - `typescript-eslint` for TypeScript rules.
@@ -84,21 +84,9 @@ Does this really matter? - probably not. You can also use `jest`.
 
 _Note: Compatability between browsers and JavaScript runtimes is generally difficult anyways._
 
-### Readable builds
+### Easy build config
 
-There are two main build goals:
-
-1. Support CommonJs and ESM bundles with TypeScript if necessary.
-2. Make dubugging simple.
-
-Thus no minification and bundling is used to maintain as much similarity between build package and source code.
-
-Also, I don't wish to force TypeScript on the consumer. But I will force TypeScript library authors - there's no reason to make consuming difficult.
-
-Bundling is achieved with `rollup`:
-
-- `rollup-plugin-esbuild` plugin for CommonJs and ESM build.
-- `rollup-plugin-dts` plugin for TypeScript `d.ts` build.
+Bundling is achieved with `unbuild` with no config. This is used and maintained by the maintainers of Nuxt.js
 
 &nbsp;
 
