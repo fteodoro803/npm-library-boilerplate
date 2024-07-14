@@ -1,4 +1,4 @@
-import { FooBar } from '../types'
+import type { FooBar } from '../types'
 
 /**
  * Function to return "foo" string.

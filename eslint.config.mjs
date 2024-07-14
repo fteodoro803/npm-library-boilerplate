@@ -1,6 +1,6 @@
 import pluginJs from '@eslint/js'
-import tseslint from 'typescript-eslint'
 import compat from 'eslint-plugin-compat'
+import tseslint from 'typescript-eslint'
 
 export default [
   {
