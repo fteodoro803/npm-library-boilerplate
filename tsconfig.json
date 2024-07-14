@@ -20,7 +20,7 @@
     "isolatedModules": true,
     "esModuleInterop": true,
     "module": "NodeNext",
-    "moduleResolution": "NodeNext",
+    "moduleResolution": "NodeNext"
   },
   "include": ["src"]
 }
