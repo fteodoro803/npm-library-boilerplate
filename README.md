@@ -2,7 +2,6 @@
 
 Boilerplate for creating NPM library, config free.
 
-_Note: This template is targeted at libraries that run on browsers due to compatability considerations. It should run just fine on Node.js_
 
 &nbsp;
 
@@ -86,13 +85,4 @@ _Note: Compatability between browsers and JavaScript runtimes is generally diffi
 
 ### Easy build config
 
-Bundling is achieved with `unbuild` with no config. This is used and maintained by the maintainers of Nuxt.js
-
-&nbsp;
-
-&nbsp;
-
-## Todo:
-
-- Lint for different JavaScript runtimes:
-  - Create eslint plugin from [runtime-compat](https://github.com/unjs/runtime-compat/tree/main/packages/runtime-compat-data) data.
+Bundling is achieved with `tsup` and the output format is validated with `@arethetypeswrong/cli`.
