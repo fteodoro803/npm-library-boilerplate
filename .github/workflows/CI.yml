@@ -9,8 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Setup FFmpeg
-        uses: federicocarboni/setup-ffmpeg@v3
       - uses: pnpm/action-setup@v4
         with:
           version: latest
@@ -19,5 +17,5 @@ jobs:
           node-version: latest
           cache: 'pnpm'
 
-      - run: pnpm install
-      - run: pnpm lint && pnpm test && pnpm build
+      - run: pnpm install && pnpm build
+      - run: pnpm lint && pnpm test
