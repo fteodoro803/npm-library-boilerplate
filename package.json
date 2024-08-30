@@ -38,6 +38,8 @@
     "@arethetypeswrong/cli": "^0.15.4",
     "@biomejs/biome": "^1.8.3",
     "@changesets/cli": "^2.27.7",
+    "@commitlint/cli": "19.4.1",
+    "@commitlint/config-conventional": "19.4.1",
     "@eslint/js": "^9.6.0",
     "@types/eslint": "^8.56.10",
     "@types/node": "^20.14.10",
@@ -52,7 +54,7 @@
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm run format",
-    "pre-push": "pnpm run lint"
-  },
-  "browserslist": ["defaults"]
+    "pre-push": "pnpm run lint",
+    "commit-msg": "npx --no -- commitlint --edit \"$1\""
+  }
 }
