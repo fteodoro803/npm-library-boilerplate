@@ -57,6 +57,10 @@ Lint the use of conventional commits with `@commitlint/cli`.
 
 A helper script `pnpm commit` is included to guide contributors through commits - `czg` and `cz-git`
 
+### Basic issues template
+
+Includes `bug` and `feature` issue templates.
+
 ### Git hook with formatting and linting
 
 `simple-git-hooks` is automatically setup on install via a `package.json` script:
