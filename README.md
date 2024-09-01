@@ -51,6 +51,12 @@ To achieve consistency for devs, use of `pnpm` is enforced with a `package.json`
 "preinstall": "npx only-allow pnpm"
 ```
 
+### Enforce conventional commits format
+
+Lint the use of conventional commits with `@commitlint/cli`.
+
+A helper script `pnpm commit` is included to guide contributors through commits - `czg` and `cz-git`
+
 ### Git hook with formatting and linting
 
 `simple-git-hooks` is automatically setup on install via a `package.json` script:
