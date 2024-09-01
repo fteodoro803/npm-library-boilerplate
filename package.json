@@ -16,15 +16,9 @@
       "require": "./dist/index.cjs"
     }
   },
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "repository": "https://github.com/MengLinMaker/npm-library-boilerplate.git",
-  "keywords": [
-    "boilerplate",
-    "npm",
-    "library"
-  ],
+  "keywords": ["boilerplate", "npm", "library"],
   "author": "Meng Lin <menglinmaker@gmail.com>",
   "license": "MIT",
   "bugs": {
