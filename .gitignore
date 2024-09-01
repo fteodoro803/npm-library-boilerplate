@@ -5,10 +5,6 @@ coverage
 dist
 tsconfig.tsbuildinfo
 
-# Docs
-docs/.vitepress/dist
-docs/.vitepress/cache
-
 # Dependency
 node_modules
 
@@ -17,4 +13,4 @@ node_modules
 
 # System
 .DS_Store
-.vscode
+ 
