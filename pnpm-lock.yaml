@@ -46,7 +46,7 @@ importers:
         version: 1.9.4
       eslint-plugin-compat:
         specifier: ^6.0.0
-        version: 6.0.0(eslint@9.6.0)
+        version: 6.0.1(eslint@9.6.0)
       simple-git-hooks:
         specifier: ^2.11.1
         version: 2.11.1
@@ -1197,8 +1197,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  eslint-plugin-compat@6.0.0:
-    resolution: {integrity: sha512-oIynkQYqGnW9ibHl1cGLER8XkUlKaOI8bS80Qz7CjKROvbQm4oN8fWb5l2cG9GJJ4h5eFIHPqkB9ZJuMzwpPFQ==}
+  eslint-plugin-compat@6.0.1:
+    resolution: {integrity: sha512-0MeIEuoy8kWkOhW38kK8hU4vkb6l/VvyjpuYDymYOXmUY9NvTgyErF16lYuX+HPS5hkmym7lfA+XpYZiWYWmYA==}
     engines: {node: '>=18.x'}
     peerDependencies:
       eslint: ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0
@@ -3487,7 +3487,7 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-plugin-compat@6.0.0(eslint@9.6.0):
+  eslint-plugin-compat@6.0.1(eslint@9.6.0):
     dependencies:
       '@mdn/browser-compat-data': 5.5.49
       ast-metadata-inferer: 0.8.0
