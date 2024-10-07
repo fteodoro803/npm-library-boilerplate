@@ -39,8 +39,8 @@ importers:
         specifier: ^2.0.2
         version: 2.0.5(vitest@2.0.5(@types/node@22.7.4))
       cz-git:
-        specifier: 1.10.0
-        version: 1.10.0
+        specifier: 1.10.1
+        version: 1.10.1
       czg:
         specifier: 1.9.4
         version: 1.9.4
@@ -1097,8 +1097,8 @@ packages:
     resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}
     engines: {node: '>= 8'}
 
-  cz-git@1.10.0:
-    resolution: {integrity: sha512-WJidM6BwqJXPi2KUBzkUgZwZYh9U5VP5tJSIZ5G4+CDDv0lzLo8vrOrsWItE12f3xpAvlZTeQipreSczuaxFRA==}
+  cz-git@1.10.1:
+    resolution: {integrity: sha512-pBudDYUEqSOgt5cAlAk6BDs/h99lxfiii+1KCxfuVNOgcpn+yz7AejDjdBEJ+XDt7MOeAvcpYW3gi7C7il+IFA==}
     engines: {node: '>=v12.20.0'}
 
   czg@1.9.4:
@@ -3390,7 +3390,7 @@ snapshots:
       shebang-command: 2.0.0
       which: 2.0.2
 
-  cz-git@1.10.0: {}
+  cz-git@1.10.1: {}
 
   czg@1.9.4: {}
 
