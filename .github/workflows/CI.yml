@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: 
+      - main
+jobs:
+  test:
+    name: test CI
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 'latest'
+          cache: 'npm'
+
+      - name: Install PNPM
+      - run: pnpm install
+
+      - name: Lint
+      - run: pnpm lint
+
+      - name: Test
+      - run: pnpm test
+
+      - name: Build
+      - run: pnpm build
+      
