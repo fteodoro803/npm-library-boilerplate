@@ -1,4 +1,4 @@
-# Create your library
+# Create your library 
 
 Boilerplate for creating NPM library, config free.
 
